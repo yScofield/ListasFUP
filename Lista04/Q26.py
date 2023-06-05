@@ -1,0 +1,31 @@
+n= int(input('Digite o valor do saque: '))
+r100=0
+r50=0
+r20=0
+r10=0
+r5=0
+r2=0
+r1=0
+while n>0:
+	if n>=100:
+		r100+=1
+		n-=100
+	elif n>=50:
+		r50+=1
+		n-=50
+	elif n>=20:
+		r20+=1
+		n-=20
+	elif n>=10:
+		r10+=1
+		n-=10
+	elif n>=5:
+		r5+=1
+		n-=5
+	elif n>=2:
+		r2+=1
+		n-=2
+	elif n>=1:
+		r1+=1
+		n-=1
+print (f'{r100} notas de R$100.\n{r50} notas de R$50.\n{r20} notas de R$20.\n{r10} notas de R$10.\n{r5} notas de R$5.\n{r2} notas de R$2.\n{r1} notas de R$1.')
