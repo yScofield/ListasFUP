@@ -1,0 +1,5 @@
+n= input('Digite algo: ')
+l1= input('Digite a letra que você quer trocar: ')
+l2= input('Digite a letra que você quer colocar no lugar: ')
+n=n.replace(f'{l1}', f'{l2}')
+print (n)
