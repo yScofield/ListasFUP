@@ -1,7 +1,7 @@
 n = int(input('Digite o tamanho de F: '))
 f1= 1
 f2= 0
-if n<0:
+if n<1:
 	print ('Valor inválido.')
 else:
 	print (f'A sequencia de fibonnaci de tamanho {n} é: ')
