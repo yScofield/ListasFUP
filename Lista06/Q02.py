@@ -1,4 +1,5 @@
+import random
 A= [0] *6
 for c in range (0,6):
-	A[c]=int(input(f'Digite o {c+1}° valor: '))
+	A[c]=random.randint(0,10)
 print (A)
